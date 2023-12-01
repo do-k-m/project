@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <link rel="stylesheet" href="ddd/style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <div id="logo">
+                <a href="index.html">
+                    <h1>정말 너무 좋은 동물원</h1>
+                </a>
+            </div>
+            <nav>
+                <ul id="topMenu">
+                    <li><a href="#">동물 사육 <span>▼</span></a>
+                        <ul>
+                            <li><a href="#">강아지</a></li>
+                            <li><a href="#">고양이</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">공연 예매 <span>▼</span></a>
+                        <ul>
+                            <li><a href="#">돌고래</a></li>
+                            <li><a href="#">코끼리</a></li>
+                            <li><a href="#">호랑이</a></li>
+                        </ul>
+                    </li>
+                <li><a href="#">기업 정보</a></li>
+                <li><a href="#">오시는 길</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="slideShow">
+            <div id="slides">
+                <img src="gorae.jpg" alt="">
+                <img src="laugh.jpeg" alt="">
+                <img src="Rabbit.jpg" alt="">
+                <button id="prev">&lang;</button>
+                <button id="next">&rang;</button>
+            </div>
+        </div>
+        <div id="contents">
+            <div id="tabMenu">
+                <input type="radio" id="tab1" name="tabs" checked>
+                <label for="tab1">공지사항</label>
+                <input type="radio" id="tab2" name="tabs">
+                <label for="tab2">사진방</label>
+
+                <div id="notice" class="tabContent">
+                    <h2>공지사항 내용입니다.</h2>
+                    <ul>
+                        <li>오늘은 고양이가 귀엽네요.</li>
+                        <li>이번달 강아지 사료 담당</li>
+                        <li>돌고래 쇼 보러오세요.</li>
+                        <li>회사 지침이 변경되었습니다.</li>
+                        <li>이번년도 운세</li>
+                    </ul>
+                </div>
+                <div id="gallery" class="tabContent">
+                    <h2>사진방 입니다.</h2>
+                    <ul>
+                        <li><img src="img-1.jpg"></li>
+                        <li><img src="img-2.jpg"></li>
+                        <li><img src="img-3.jpg"></li>
+                        <li><img src="img-1.jpg"></li>
+                        <li><img src="img-2.jpg"></li>
+                        <li><img src="img-3.jpg"></li>
+                    </ul> 
+                </div>
+            </div>
+            <div id="links">
+                <ul>
+                    <li>
+                        <a href="#">
+                          <span id="quick-icon1"></span>
+                          <p>동물 숲 탐방</p>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <span id="quick-icon2"></span>
+                          <p>조용한 관람</p>
+                        </a>            
+                      </li>
+                      <li>
+                        <a href="#">
+                          <span id="quick-icon3"></span>
+                          <p>문의하기</p>
+                        </a>            
+                      </li>
+                </ul>
+            </div>
+        </div>
+        <footer>
+            <div id="bottomMenu">
+                <ul>
+                    <li><a href="#">회사 소개</a></li>
+                    <li><a href="#">개인정보 처리방침</a></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">사이트맵</a></li>
+                </ul>
+                <div id="sns">
+                    <ul>
+                        <li><a href="#"><img src="image/sns-1.png"></a></li>
+                        <li><a href="#"><img src="image/sns-2.png"></a></li>
+                        <li><a href="#"><img src="image/sns-3.png"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="company">
+                <p>대구광역시 북구 대학로 80 (산격동,경북대학교)</p>
+                <p>Copyright(c) Kyungpook National University. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+    <script src="slideshow.js"></script>
+</body>
+</html>
